@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#db2777" />
+    </linearGradient>
+  </defs>
+  <!-- Speaker body -->
+  <rect x="10" y="36" width="20" height="28" rx="4" fill="url(#grad)" />
+  <!-- Speaker cone triangle -->
+  <polygon points="28,30 48,14 48,86 28,70" fill="url(#grad)" />
+  <!-- Sound wave 1 (small) -->
+  <path d="M 56 38 Q 66 50 56 62" fill="none" stroke="url(#grad)" stroke-width="7" stroke-linecap="round" />
+  <!-- Sound wave 2 (medium) -->
+  <path d="M 65 28 Q 82 50 65 72" fill="none" stroke="url(#grad)" stroke-width="7" stroke-linecap="round" />
+  <!-- Sound wave 3 (large) -->
+  <path d="M 75 18 Q 98 50 75 82" fill="none" stroke="url(#grad)" stroke-width="7" stroke-linecap="round" />
+</svg>
